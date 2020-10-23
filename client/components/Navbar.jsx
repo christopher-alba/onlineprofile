@@ -5,15 +5,34 @@ import { Link } from 'react-router-dom'
 class MainNavbar extends Component {
   state = {
     location: this.props.pathName,
+    prevScrollpos: window.pageYOffset,
+    visible: true
   }
-  componentDidUpdate(prevProps){
-    if(prevProps.pathName !== this.props.pathName){
-      this.setState({location: this.props.pathName})
+  componentDidUpdate(prevProps) {
+    if (prevProps.pathName !== this.props.pathName) {
+      this.setState({ location: this.props.pathName })
     }
   }
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+  handleScroll = () => {
+    const { prevScrollpos } = this.state;
+
+    const currentScrollPos = window.pageYOffset;
+    const visible = prevScrollpos > currentScrollPos;
+
+    this.setState({
+      prevScrollpos: currentScrollPos,
+      visible
+    });
+  };
   render() {
     return (
-      <div className="mainNavbar" >
+      <div className={`mainNavbar ${!this.state.visible ? 'hidden' : ''}`} >
         <Navbar bg="light" expand="lg" >
           <Navbar.Brand href="/">Christopher Alba</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,7 +54,7 @@ class MainNavbar extends Component {
                 </Nav.Link>
               </Link>
               <Link className="navlink" to="/contact">
-                <Nav.Link className={this.state.location === '/contact' ? 'activeLink' : ''}href="#link">
+                <Nav.Link className={this.state.location === '/contact' ? 'activeLink' : ''} href="#link">
                   Contact
                 </Nav.Link>
               </Link>
