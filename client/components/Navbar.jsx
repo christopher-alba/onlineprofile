@@ -4,21 +4,16 @@ import './navbar.css'
 class MainNavbar extends Component {
   render() {
     return (
-      <Container style={{padding:'0px'}}>
-        <Navbar bg="light" expand="lg" className="mainNavbar">
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Container className="mainNavbar" style={{padding:'0px'}}>
+        <Navbar bg="light" expand="lg" >
+          <Navbar.Brand href="#home">Christopher Alba</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link href="#link">Portfolio</Nav.Link>
+              <Nav.Link href="#link">Blog</Nav.Link>
+              <Nav.Link href="#link">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
