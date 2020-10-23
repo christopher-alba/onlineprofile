@@ -35,3 +35,15 @@
   transition:500ms;
   top:-100px;
 }
+.showNav{
+  position:fixed;
+  top:0px;
+  z-index:20;
+}
+.showNav:hover{
+  cursor:pointer;
+}
+.showNav .fa-chevron-down{
+  font-size:3rem;
+  padding:20px;
+}

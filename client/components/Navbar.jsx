@@ -32,36 +32,39 @@ class MainNavbar extends Component {
   };
   render() {
     return (
-      <div className={`mainNavbar ${!this.state.visible ? 'hidden' : ''}`} >
-        <Navbar bg="light" expand="lg" >
-          <Navbar.Brand href="/">Christopher Alba</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Link className="navlink" to="/" >
-                <Nav.Link className={this.state.location === '/' ? 'activeLink' : ''} href="#home" >
-                  Home
+      <>
+        {!this.state.visible && <div className="showNav" onClick={()=>this.setState({visible: true})}><i className="fas fa-chevron-down"></i></div>}
+        <div className={`mainNavbar ${!this.state.visible ? 'hidden' : ''}`} >
+          <Navbar bg="light" expand="lg" >
+            <Navbar.Brand href="/">Christopher Alba</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="ml-auto">
+                <Link className="navlink" to="/" >
+                  <Nav.Link className={this.state.location === '/' ? 'activeLink' : ''} href="#home" >
+                    Home
                 </Nav.Link>
-              </Link>
-              <Link className="navlink" to="/portfolio">
-                <Nav.Link className={this.state.location === '/portfolio' ? 'activeLink' : ''} href="#link" >
-                  Portfolio
+                </Link>
+                <Link className="navlink" to="/portfolio">
+                  <Nav.Link className={this.state.location === '/portfolio' ? 'activeLink' : ''} href="#link" >
+                    Portfolio
                 </Nav.Link>
-              </Link>
-              <Link className="navlink" to="/blog">
-                <Nav.Link className={this.state.location === '/blog' ? 'activeLink' : ''} href="#link" >
-                  Blog
+                </Link>
+                <Link className="navlink" to="/blog">
+                  <Nav.Link className={this.state.location === '/blog' ? 'activeLink' : ''} href="#link" >
+                    Blog
                 </Nav.Link>
-              </Link>
-              <Link className="navlink" to="/contact">
-                <Nav.Link className={this.state.location === '/contact' ? 'activeLink' : ''} href="#link">
-                  Contact
+                </Link>
+                <Link className="navlink" to="/contact">
+                  <Nav.Link className={this.state.location === '/contact' ? 'activeLink' : ''} href="#link">
+                    Contact
                 </Nav.Link>
-              </Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
+                </Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
+      </>
     )
 
 
