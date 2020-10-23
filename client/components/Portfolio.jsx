@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
 import Container from 'react-bootstrap/Container'
+import './portfolio.css'
 class Portfolio extends Component {
   render() {
     return (
-      <Container style={{padding:"0px"}}>
-        <h1>Welcome to my Portfolio</h1>
-      </Container>
+      <div className="portfolioContainer ">
+        <div className="portfolioHeader">
+          <h3>Welcome to my Portfolio</h3>
+        </div>
+
+      </div>
 
     )
   }

@@ -5,7 +5,7 @@ import './home.css'
 class Home extends Component {
   render() {
     return (
-      <Container className="homeContainer">
+      <div className="homeContainer">
 
         <Carousel className="homeCarousel">
           <Carousel.Item>
@@ -49,9 +49,17 @@ class Home extends Component {
 
           </Carousel.Item>
         </Carousel>
-        <div className="homeInnerContainer">
-          <h3>Introduction</h3>
-          <p>Hey there! I'm Chris, a university student who practices web development in his spare time. I've always loved designing and building things from a young age and is why I fell in love with web development and engineering. This website that I built myself has most of the information you'd be interested in knowing about me, ranging from my portfolio of projects that I keep up to date and up to my hobbies and interests. It also has my contact details incase you're an employer looking for an intern. I still need 800 hours of practical experience left in my degree to graduate so I'm open to internships until the end of 2022!</p>
+        <div className="homeInnerContainer introduction">
+          <div className="introText">
+            <div>
+              <h3>Introduction</h3>
+              <p>Hey there! I'm Chris, a university student who practices web development in his spare time. I've always loved designing and building things from a young age and is why I fell in love with web development and engineering. This website that I built myself has most of the information you'd be interested in knowing about me, ranging from my portfolio of projects that I keep up to date and up to my hobbies and interests. It also has my contact details incase you're an employer looking for an intern. I still need 800 hours of practical experience left in my degree to graduate so I'm open to internships until the end of 2022!</p>
+            </div>
+
+          </div>
+          <div className="introImage">
+            <img src="https://scontent.fakl4-1.fna.fbcdn.net/v/t1.0-9/101387075_2710697582485197_789596644646584320_n.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=r0ugjRATwVIAX8ndU2d&_nc_ht=scontent.fakl4-1.fna&oh=82a0fd3d61a266cef4eafc831ffc6b73&oe=5FB75E58" alt="" />
+          </div>
         </div>
 
         <div className="homeInnerContainer workExperience">
@@ -63,7 +71,7 @@ class Home extends Component {
           <h3>My Education</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eum accusamus tenetur sint tempore accusantium, harum maiores saepe neque quibusdam temporibus soluta facere non omnis quod nisi, velit blanditiis aspernatur. Est tempore hic provident eos libero delectus iusto omnis rerum animi molestias, velit dolorum voluptatum consequuntur vel ut minima perferendis. Dolorem aut ipsam quo, quod sit ab, cumque pariatur assumenda esse excepturi eligendi modi in ducimus, officiis odio quisquam minus eos dolorum aliquam unde sed dolor iure! Vitae distinctio, non, tempora nesciunt delectus aperiam laudantium minima laboriosam commodi porro magnam! Quidem voluptatum voluptatibus voluptas quis sit accusantium vitae a dolorem, dolores, delectus nesciunt? Consectetur minus officia eaque eligendi, repudiandae ex magni, animi cum numquam veritatis tempore dicta temporibus recusandae maxime molestiae, quia provident labore quibusdam veniam iste vel id. Aliquam minima maiores non quas praesentium, pariatur assumenda ad quasi in esse fugiat, totam illo ab nam exercitationem, quisquam tempore voluptatem nostrum eligendi? Expedita porro ratione eaque eos, delectus magnam ipsum fuga voluptatibus obcaecati natus, distinctio quasi numquam libero tenetur, nostrum dolore perferendis voluptate velit quia. Eligendi quas facere possimus atque minus. Aliquid iure repellendus mollitia repellat debitis corrupti molestiae ut natus magni dolorum, quas illum. Inventore quo fugit temporibus architecto?</p>
         </div>
-      </Container>
+      </div>
 
     )
   }

@@ -3,6 +3,11 @@
   top:0px;
   z-index:10;
 }
+.navbar{
+  padding:50px;
+  padding-bottom:30px;
+  background-color:white !important;
+}
 .nav-link{
   color:black !important;
   border-bottom:2px solid rgba(0, 0, 0, 0);

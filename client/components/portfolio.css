@@ -1,0 +1,18 @@
+.portfolioHeader{
+  height:500px;
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background:url(https://wallpaperaccess.com/full/766753.jpg);
+  background-size:cover;
+}
+.portfolioHeader h3{
+  background:black;
+  padding:20px;
+}
+.portfolioContainer{
+  padding:0px;
+  background:rgb(255, 255, 255);
+  min-height:100vh;
+}

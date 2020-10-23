@@ -1,5 +1,5 @@
 .homeContainer{
-  background:rgb(236, 236, 236);
+  background:rgb(255, 255, 255);
   min-height:100vh;
   padding:0px;
 }
@@ -9,11 +9,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: rgb(27, 6, 83);
-  color:white;
 }
 .homeCarousel p, .homeCarousel h3{
-  background:black;
   padding:10px;
   padding-left:50px;
   padding-right:50px;
@@ -32,6 +29,7 @@
   top:0px;
   left:0px;
   z-index:0;
+  opacity:0.3;
 
 }
 h3,p{
@@ -51,4 +49,23 @@ h3,p{
   justify-content: center;
   height:100%;
   flex-wrap:wrap;
+}
+.introduction{
+  display:flex;
+  flex-wrap:wrap-reverse;
+}
+.introImage img{
+  width:100%;
+  border-radius:50px;
+}
+.introImage{
+  width:30%;
+}
+.introText{
+  width:70%;
+  min-width:300px;
+  padding-right:10%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
