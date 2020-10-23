@@ -1,0 +1,14 @@
+.homeContainer{
+  background:rgb(236, 236, 236);
+  min-height:100vh;
+  padding:0px;
+}
+.homeCarousel{
+  height:500px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgb(27, 6, 83);
+  color:white;
+}
