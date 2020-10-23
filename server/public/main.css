@@ -1,3 +1,5 @@
 body{
   background-color:rgb(238, 238, 238) !important;
+  text-align:justify !important;
+  text-justify: auto;
 }

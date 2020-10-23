@@ -93,3 +93,20 @@ h3,p{
 .experienceImage img{
   width:70%;
 }
+.educationInner{
+  display:flex;
+  flex-wrap:wrap;
+  padding-top:50px;
+}
+.educationImage{
+  width:30%;
+  min-width: 200px;
+  padding-right:10%;
+}
+.educationText{
+  width:70%;
+  min-width:300px;
+}
+.educationImage img{
+  width:70%;
+}

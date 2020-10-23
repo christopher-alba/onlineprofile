@@ -69,7 +69,7 @@ class Home extends Component {
               <img src="https://devacademy.co.nz/wp-content/uploads/2017/06/EDA-square-logo-uai-258x258.png" alt="" />
             </div>
             <div className="experienceText">
-              <h4>Enspiral Dev Academy Apprenticeship</h4>
+              <h4>Enspiral Dev Academy Web Developer Apprenticeship</h4>
               <p>EDA’s curriculum is designed and taught by currently employed software developers and was designed to turn someone from no experience in software to a full stack web developer in 15 weeks. A normal day in this bootcamp was usually around 10-12 hours of work a day. I was exposed to agile software practices when taking part in group projects.</p>
               <p>
                 Pair programming happens almost everyday after each lecture. All our activities were version controlled in git and managed in github. Every friday there is a group project which lasts for one day.
@@ -94,8 +94,26 @@ class Home extends Component {
         </div>
 
         <div className="homeInnerContainer">
-          <h3>My Education</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eum accusamus tenetur sint tempore accusantium, harum maiores saepe neque quibusdam temporibus soluta facere non omnis quod nisi, velit blanditiis aspernatur. Est tempore hic provident eos libero delectus iusto omnis rerum animi molestias, velit dolorum voluptatum consequuntur vel ut minima perferendis. Dolorem aut ipsam quo, quod sit ab, cumque pariatur assumenda esse excepturi eligendi modi in ducimus, officiis odio quisquam minus eos dolorum aliquam unde sed dolor iure! Vitae distinctio, non, tempora nesciunt delectus aperiam laudantium minima laboriosam commodi porro magnam! Quidem voluptatum voluptatibus voluptas quis sit accusantium vitae a dolorem, dolores, delectus nesciunt? Consectetur minus officia eaque eligendi, repudiandae ex magni, animi cum numquam veritatis tempore dicta temporibus recusandae maxime molestiae, quia provident labore quibusdam veniam iste vel id. Aliquam minima maiores non quas praesentium, pariatur assumenda ad quasi in esse fugiat, totam illo ab nam exercitationem, quisquam tempore voluptatem nostrum eligendi? Expedita porro ratione eaque eos, delectus magnam ipsum fuga voluptatibus obcaecati natus, distinctio quasi numquam libero tenetur, nostrum dolore perferendis voluptate velit quia. Eligendi quas facere possimus atque minus. Aliquid iure repellendus mollitia repellat debitis corrupti molestiae ut natus magni dolorum, quas illum. Inventore quo fugit temporibus architecto?</p>
+          <h3 style={{ paddingBottom: "100px" }}>My Education</h3>
+          <div className="educationInner">
+            <div className="educationImage">
+              <img src="https://pbs.twimg.com/profile_images/969044214288756736/41mG3WRy_400x400.jpg" alt="" />
+            </div>
+            <div className="educationText">
+              <h4>University of Auckland</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eum accusamus tenetur sint tempore accusantium, harum maiores saepe neque quibusdam temporibus soluta facere non omnis quod nisi, velit blanditiis aspernatur. Est tempore hic provident eos libero delectus iusto omnis rerum animi molestias, velit dolorum voluptatum consequuntur vel ut minima perferendis. Dolorem aut ipsam quo, quod sit ab, cumque pariatur assumenda esse excepturi eligendi modi in ducimus, officiis odio quisquam minus eos dolorum aliquam unde sed dolor iure! Vitae distinctio, non, tempora nesciunt delectus aperiam laudantium minima laboriosam commodi porro magnam! Quidem voluptatum voluptatibus voluptas quis sit accusantium vitae a dolorem, dolores, delectus nesciunt? Consectetur minus officia eaque eligendi, repudiandae ex magni, animi cum numquam veritatis tempore dicta temporibus recusandae maxime molestiae, quia provident labore quibusdam veniam iste vel id. Aliquam minima maiores non quas praesentium, pariatur assumenda ad quasi in esse fugiat, totam illo ab nam exercitationem, quisquam tempore voluptatem nostrum eligendi? Expedita porro ratione eaque eos, delectus magnam ipsum fuga voluptatibus obcaecati natus, distinctio quasi numquam libero tenetur, nostrum dolore perferendis voluptate velit quia. Eligendi quas facere possimus atque minus. Aliquid iure repellendus mollitia repellat debitis corrupti molestiae ut natus magni dolorum, quas illum. Inventore quo fugit temporibus architecto?</p>
+            </div>
+          </div>
+          <div className="educationInner">
+            <div className="educationImage">
+              <img src="https://www.sanctamaria.school.nz/wp-content/uploads/2020/03/schoollogo.jpg" alt="" />
+            </div>
+            <div className="educationText">
+              <h4>Sancta Maria College</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eum accusamus tenetur sint tempore accusantium, harum maiores saepe neque quibusdam temporibus soluta facere non omnis quod nisi, velit blanditiis aspernatur. Est tempore hic provident eos libero delectus iusto omnis rerum animi molestias, velit dolorum voluptatum consequuntur vel ut minima perferendis. Dolorem aut ipsam quo, quod sit ab, cumque pariatur assumenda esse excepturi eligendi modi in ducimus, officiis odio quisquam minus eos dolorum aliquam unde sed dolor iure! Vitae distinctio, non, tempora nesciunt delectus aperiam laudantium minima laboriosam commodi porro magnam! Quidem voluptatum voluptatibus voluptas quis sit accusantium vitae a dolorem, dolores, delectus nesciunt? Consectetur minus officia eaque eligendi, repudiandae ex magni, animi cum numquam veritatis tempore dicta temporibus recusandae maxime molestiae, quia provident labore quibusdam veniam iste vel id. Aliquam minima maiores non quas praesentium, pariatur assumenda ad quasi in esse fugiat, totam illo ab nam exercitationem, quisquam tempore voluptatem nostrum eligendi? Expedita porro ratione eaque eos, delectus magnam ipsum fuga voluptatibus obcaecati natus, distinctio quasi numquam libero tenetur, nostrum dolore perferendis voluptate velit quia. Eligendi quas facere possimus atque minus. Aliquid iure repellendus mollitia repellat debitis corrupti molestiae ut natus magni dolorum, quas illum. Inventore quo fugit temporibus architecto?</p>
+            </div>
+          </div>
+
         </div>
       </div >
 
