@@ -6,7 +6,9 @@ import { Route } from 'react-router-dom'
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Route path='/' render = {props => {
+        return  <Navbar pathName={props.location.pathname}/>
+      }}/>
       <Route exact path='/'>
         <Home />
       </Route>
