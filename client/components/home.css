@@ -20,7 +20,7 @@
   padding:5%;
 }
 .workExperience{
-  background:rgb(14, 3, 44);
+  background:rgb(37, 37, 37);
   color:white;
 }
 .carouselImages{
@@ -30,7 +30,7 @@
   top:0px;
   left:0px;
   z-index:0;
-  opacity:0.3;
+  opacity:0.2;
 
 }
 h3,p{
@@ -73,4 +73,23 @@ h3,p{
   display:flex;
   align-items: center;
   justify-content: center;
+}
+
+.experienceInner{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:50px;
+}
+.experienceText{
+  
+  width:70%;
+  min-width:300px;
+}
+.experienceImage{
+  width:30%;
+  min-width:200px;
+  padding-right:10%;
+}
+.experienceImage img{
+  width:70%;
 }
