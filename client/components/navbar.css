@@ -45,6 +45,11 @@
 }
 .showNav .fa-chevron-down{
   font-size:3rem;
-  padding:20px;
+  margin:20px;
   color:black !important;
+  transition:500ms;
+}
+.showNav .fa-chevron-down.white{
+  color:white !important;
+  transition:500ms;
 }

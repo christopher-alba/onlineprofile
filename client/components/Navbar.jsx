@@ -6,15 +6,17 @@ class MainNavbar extends Component {
   state = {
     location: this.props.pathName,
     prevScrollpos: window.pageYOffset,
-    visible: true
+    visible: true,
+    whiteArrow: false
   }
   componentDidUpdate(prevProps) {
     if (prevProps.pathName !== this.props.pathName) {
-      this.setState({ location: this.props.pathName })
+      this.setState({ location: this.props.pathName, whiteArrow: false })
     }
   }
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
+
   }
   componentWillUnmount() {
     window.removeEventListener("scroll", this.handleScroll);
@@ -29,11 +31,37 @@ class MainNavbar extends Component {
       prevScrollpos: currentScrollPos,
       visible
     });
+
+    // changing color of chevron arrow code below
+    let workExperience = document.getElementsByClassName("workExperience")[0]
+    let downArrow = document.getElementsByClassName("showNav")[0]
+    let topWork
+    let bottomWork
+    let topArrow
+    let bottomArrow
+    if(workExperience !== undefined && downArrow !== undefined){
+
+      let viewportOffsetWork = workExperience.getBoundingClientRect()
+      topWork = viewportOffsetWork.top
+      bottomWork = viewportOffsetWork.bottom
+
+      let downArrowOffset = downArrow.getBoundingClientRect()
+      topArrow = downArrowOffset.top
+      bottomArrow = downArrowOffset.bottom
+
+      if(topArrow > topWork && bottomArrow < bottomWork ){
+        this.setState({whiteArrow: true})
+      } else {
+        this.setState({whiteArrow: false})
+      }
+    }
+    
+
   };
   render() {
     return (
       <>
-        {!this.state.visible && <div className="showNav" onClick={() => this.setState({ visible: true })}><i className="fas fa-chevron-down"></i></div>}
+        {!this.state.visible && <div className={`showNav`} onClick={() => this.setState({ visible: true })}><i className={`fas fa-chevron-down ${this.state.whiteArrow?'white !important':''}`}></i></div>}
         <div className={`mainNavbar ${!this.state.visible ? 'hidden' : ''}`} >
           <Navbar bg="light" expand="lg" >
             <Navbar.Brand href="/">Christopher Alba</Navbar.Brand>

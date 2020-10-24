@@ -5,6 +5,9 @@ import projects from '../projects'
 import Button from 'react-bootstrap/Button'
 
 class Portfolio extends Component {
+  componentDidMount(){
+    document.documentElement.scrollTop = 0; 
+  }
   render() {
     return (
       <div className="portfolioContainer ">
