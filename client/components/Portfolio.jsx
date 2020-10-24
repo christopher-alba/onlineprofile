@@ -16,7 +16,7 @@ class Portfolio extends Component {
           {projects.map(project => (
             <div className="projectContainer">
               <img src={project.imgUrl} alt="" />
-              <Button className="visit" href={project.href} variant="dark"><i className="fas fa-external-link-alt"></i></Button>
+              <Button className="visit" href={project.href} variant="dark">Visit <i className="fas fa-external-link-alt"></i> </Button>
               <h4>{project.title}</h4>
               <p>{project.description}</p>
               <div className="hashtags">
