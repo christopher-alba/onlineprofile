@@ -88,7 +88,7 @@ class Home extends Component {
             </div>
             <div className="experienceText">
               <h4>Software Engineering Intern at Jasper</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi delectus totam fuga accusantium ullam quod. Doloribus facilis hic sit maxime quod provident adipisci iste autem, quisquam fugit delectus ut repudiandae dignissimos nobis impedit quasi suscipit quis voluptas. Ut porro voluptates, doloremque aut dolorum quidem totam dolore tempore dolor voluptatibus, cum quibusdam iusto hic explicabo tenetur, aliquid excepturi laborum at corporis? Pariatur accusamus dicta sunt iusto nobis at, enim laborum! Magnam nihil iste sint ad fuga sed a molestias adipisci? Similique consequatur asperiores, nam impedit molestiae dolor a nemo est. Libero eos eius culpa, totam recusandae quisquam et, beatae corrupti ex qui aspernatur impedit laudantium ab. Repellat, sint. Explicabo voluptate vel obcaecati! Commodi, repudiandae exercitationem, inventore aperiam eveniet quos assumenda harum voluptas laudantium quam quo cum impedit ea. Similique at explicabo voluptatem iure, deleniti nulla illum, rerum ut laudantium possimus itaque mollitia, cumque officia iste sapiente fuga quos neque eveniet. Voluptatem hic aliquid recusandae quam quas tempora minima pariatur obcaecati! Perspiciatis, possimus! Odio animi a est suscipit possimus. Libero dolore illum veniam, molestias odit maiores consectetur neque nemo architecto, a quibusdam aspernatur nobis sapiente amet perferendis rerum accusantium maxime sint ullam quasi laborum, ratione ipsum. Nam consequuntur praesentium aliquid obcaecati autem?</p>
+              <p>I have yet to begin this internship. Come back after the 24th of February 2021 to learn more about my experience at Jasper.</p>
             </div>
           </div>
         </div>
@@ -101,19 +101,11 @@ class Home extends Component {
             </div>
             <div className="educationText">
               <h4>University of Auckland</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eum accusamus tenetur sint tempore accusantium, harum maiores saepe neque quibusdam temporibus soluta facere non omnis quod nisi, velit blanditiis aspernatur. Est tempore hic provident eos libero delectus iusto omnis rerum animi molestias, velit dolorum voluptatum consequuntur vel ut minima perferendis. Dolorem aut ipsam quo, quod sit ab, cumque pariatur assumenda esse excepturi eligendi modi in ducimus, officiis odio quisquam minus eos dolorum aliquam unde sed dolor iure! Vitae distinctio, non, tempora nesciunt delectus aperiam laudantium minima laboriosam commodi porro magnam! Quidem voluptatum voluptatibus voluptas quis sit accusantium vitae a dolorem, dolores, delectus nesciunt? Consectetur minus officia eaque eligendi, repudiandae ex magni, animi cum numquam veritatis tempore dicta temporibus recusandae maxime molestiae, quia provident labore quibusdam veniam iste vel id. Aliquam minima maiores non quas praesentium, pariatur assumenda ad quasi in esse fugiat, totam illo ab nam exercitationem, quisquam tempore voluptatem nostrum eligendi? Expedita porro ratione eaque eos, delectus magnam ipsum fuga voluptatibus obcaecati natus, distinctio quasi numquam libero tenetur, nostrum dolore perferendis voluptate velit quia. Eligendi quas facere possimus atque minus. Aliquid iure repellendus mollitia repellat debitis corrupti molestiae ut natus magni dolorum, quas illum. Inventore quo fugit temporibus architecto?</p>
-            </div>
-          </div>
-          <div className="educationInner">
-            <div className="educationImage">
-              <img src="https://www.sanctamaria.school.nz/wp-content/uploads/2020/03/schoollogo.jpg" alt="" />
-            </div>
-            <div className="educationText">
-              <h4>Sancta Maria College</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eum accusamus tenetur sint tempore accusantium, harum maiores saepe neque quibusdam temporibus soluta facere non omnis quod nisi, velit blanditiis aspernatur. Est tempore hic provident eos libero delectus iusto omnis rerum animi molestias, velit dolorum voluptatum consequuntur vel ut minima perferendis. Dolorem aut ipsam quo, quod sit ab, cumque pariatur assumenda esse excepturi eligendi modi in ducimus, officiis odio quisquam minus eos dolorum aliquam unde sed dolor iure! Vitae distinctio, non, tempora nesciunt delectus aperiam laudantium minima laboriosam commodi porro magnam! Quidem voluptatum voluptatibus voluptas quis sit accusantium vitae a dolorem, dolores, delectus nesciunt? Consectetur minus officia eaque eligendi, repudiandae ex magni, animi cum numquam veritatis tempore dicta temporibus recusandae maxime molestiae, quia provident labore quibusdam veniam iste vel id. Aliquam minima maiores non quas praesentium, pariatur assumenda ad quasi in esse fugiat, totam illo ab nam exercitationem, quisquam tempore voluptatem nostrum eligendi? Expedita porro ratione eaque eos, delectus magnam ipsum fuga voluptatibus obcaecati natus, distinctio quasi numquam libero tenetur, nostrum dolore perferendis voluptate velit quia. Eligendi quas facere possimus atque minus. Aliquid iure repellendus mollitia repellat debitis corrupti molestiae ut natus magni dolorum, quas illum. Inventore quo fugit temporibus architecto?</p>
-            </div>
-          </div>
+              <p>I'm a second year Computer Systems Engineering student at the University of Auckland. In this bachelors degree we learn about hardware, software and firmware, and how these things work together. This degree, including 1st year of engineering, totals to 4 years and I have 2 years remaining. Practical work experience gained by internships is required and I need another 800 hours in order to graduate.</p>
 
+              <p>This degree is very challenging as it requires you to learn a large variety of technologies in a short amount of time. Personally, I enjoy the software and firmware aspects of this degree more than the hardware and I plan on taking software engineering electives in my 3rd and 4th year. Although, I still find learning about analogue circuitry quite interesting eventhough I lack some understanding of analogue circuits. </p>
+            </div>
+          </div>
         </div>
       </div >
 
