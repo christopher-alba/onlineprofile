@@ -33,7 +33,7 @@ class Home extends Component {
               <div>
                 <h3>A Lifelong Learner</h3>
                 <p>I value constant upskilling in new technologies required to stay in demand in my chosen career path. Learning is enjoyable.</p>
-                <img className="carouselImages" src="https://goodparentingbrighterchildren.com/wp-content/uploads/2019/02/Lifelong-learning-PB.jpg" alt="" />
+                <img className="carouselImages" src="https://previews.123rf.com/images/mindscanner/mindscanner1404/mindscanner140400143/27070406-word-cloud-with-web-development-related-tags.jpg" alt="" />
               </div>
             </div>
 
