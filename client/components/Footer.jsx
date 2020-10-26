@@ -12,6 +12,7 @@ class Footer extends Component {
           <a href="https://www.linkedin.com/in/christopher-alba-86845b191/"><h4 className="footerLinks">Linked In <i class="fab fa-linkedin"></i></h4></a>
           <a href="https://github.com/christopher-alba"><h4 className="footerLinks">Github <i class="fab fa-github-square"></i></h4></a>
           <a href="https://www.instagram.com/alba.sy.chris/?hl=en"><h4 className="footerLinks">Instagram <i class="fab fa-instagram-square"></i></h4></a>
+          <a href="https://careerkarma.com/discussions/projects/pennywise-money-saver-app-439/"><h4>Career Karma</h4></a>
         </div>
         
         <div className="contactMe">
