@@ -31,7 +31,7 @@ class Home extends Component {
           <Carousel.Item>
             <div className="carouselItemWrap">
               <div>
-                <h3>A Life Long Learner</h3>
+                <h3>A Lifelong Learner</h3>
                 <p>I value constant upskilling in new technologies required to stay in demand in my chosen career path. Learning is enjoyable.</p>
                 <img className="carouselImages" src="https://goodparentingbrighterchildren.com/wp-content/uploads/2019/02/Lifelong-learning-PB.jpg" alt="" />
               </div>
