@@ -17,6 +17,7 @@ class Footer extends Component {
         
         <div className="contactMe">
           <h2>Contact Me</h2>
+          <Button variant="outline-light" href="https://docs.google.com/document/d/16pRyFT4RnE5ICkokCWPxguS-Z14z-i5bxwUf2Sz1doE/edit?usp=sharing"><h4>View My CV</h4></Button>
           <Button href="tel:+6402108173338" variant="outline-light"><h4>+64 021 08173338 <i class="fas fa-mobile"></i></h4></Button>
           <Button href="mailto:chris.alba.dev@gmail.com" variant="outline-light"><h4>chris.alba.dev@gmail.com <i class="fas fa-envelope-square"></i></h4></Button>
         </div>

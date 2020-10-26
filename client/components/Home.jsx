@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import Container from 'react-bootstrap/Container'
+import Button from 'react-bootstrap/Button'
 import './home.css'
 class Home extends Component {
   render() {
@@ -54,6 +54,7 @@ class Home extends Component {
             <div>
               <h3>Introduction</h3>
               <p>Hey there! I'm Chris, a university student who practices web development in his spare time. I've always loved designing and building things from a young age and is why I fell in love with web development and engineering. This website that I built myself has most of the information you'd be interested in knowing about me, ranging from my portfolio of projects that I keep up to date and up to my educational history. It also has my contact details incase you're an employer looking for an intern. I still need 800 hours of practical experience left in my degree to graduate so I'm open to internships until the end of 2022!</p>
+              <Button variant="outline-dark" href="https://docs.google.com/document/d/16pRyFT4RnE5ICkokCWPxguS-Z14z-i5bxwUf2Sz1doE/edit?usp=sharing">View My CV</Button>
             </div>
 
           </div>
