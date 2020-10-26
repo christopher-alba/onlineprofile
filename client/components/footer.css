@@ -1,0 +1,48 @@
+.footerWrap{
+  padding:5%;
+  background:rgb(36, 36, 36);
+  color:white;
+  position:relative;
+  display:flex;
+  flex-wrap: wrap;
+}
+.footerWrap img{
+
+  position:absolute;
+  top:0px;
+  right:0px;
+  height:100%;
+  width:auto;
+  opacity:0.2;
+  z-index:0;
+}
+.onlineLinks{
+  margin-right:50px;
+  position:relative;
+  z-index:1;
+}
+.onlineLinks a{
+  color:rgb(199, 197, 197);
+
+}
+.onlineLinks a h4{
+  transition:500ms;
+}
+.onlineLinks a h4:hover{
+  transition:500ms;
+  color:white;
+}
+.onlineLinks a:hover{
+  text-decoration:none !important;
+}
+.contactMe{
+  margin-left:auto;
+  text-align:right;
+  position:relative;
+  z-index:1;
+}
+.contactMe .btn{
+  display:block;
+  margin-bottom:10px;
+  transition:300ms;
+}

@@ -22,6 +22,8 @@ class MainNavbar extends Component {
     window.removeEventListener("scroll", this.handleScroll);
   }
   handleScroll = () => {
+
+    // collapsing and expanding of navbar code below
     const { prevScrollpos } = this.state;
 
     const currentScrollPos = window.pageYOffset;
@@ -73,12 +75,6 @@ class MainNavbar extends Component {
                 </Nav.Link>
                 <Nav.Link className={this.state.location === '/portfolio' ? 'activeLink' : ''} href="/#/portfolio" >
                   Portfolio
-                </Nav.Link>
-                <Nav.Link className={this.state.location === '/blog' ? 'activeLink' : ''} href="/#/blog" >
-                  Blog
-                </Nav.Link>
-                <Nav.Link className={this.state.location === '/contact' ? 'activeLink' : ''} href="/#/contact">
-                  Contact
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
