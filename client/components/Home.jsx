@@ -16,7 +16,7 @@ class Home extends Component {
                   <div>
                     <h3>An Aspiring Web Developer</h3>
                     <p>I enjoy learning new web technologies outside of university and building projects specifically in Javascript.</p>
-                    <img className="carouselImages" src="https://skywell.software/wp-content/uploads/2018/12/web-development-1024x605.jpg" alt="" />
+                    <img className="carouselImages" src="https://cdn.hipwallpaper.com/i/75/6/1NStk9.jpg" alt="" />
                   </div>
                 </div>
 
@@ -67,7 +67,7 @@ class Home extends Component {
 
             </div>
             <div className="introImage">
-              <img src="https://scontent.fakl4-1.fna.fbcdn.net/v/t1.0-9/101387075_2710697582485197_789596644646584320_n.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=r0ugjRATwVIAX8ndU2d&_nc_ht=scontent.fakl4-1.fna&oh=82a0fd3d61a266cef4eafc831ffc6b73&oe=5FB75E58" alt="" />
+              <img src="./images/profileImage.png" alt="" />
             </div>
           </div>
 
