@@ -24,7 +24,7 @@
 .portfolioInner{
   padding:5%;
   display:flex;
-  flex-wrap:wrap;
+  flex-wrap:wrap;  
 }
 .projectContainer img{
   width:100%;
