@@ -1,7 +1,9 @@
 .selected{
-    background:rgb(58, 58, 58) !important;
+    background:rgb(255, 255, 255) !important;
+    color:black !important;
     box-shadow: 0px 0px 3px 3px #00000052;
     transition:500ms;
+    border:1px solid black;
 }
 .searchBar{
     display: flex;
