@@ -19,7 +19,6 @@ class Search extends Component {
                 i--
             }
         }
-        console.log(strings);
         if (this.state.filter === 'title') {
             this.setState({ projects: projects.filter(project => project.title.toLowerCase().includes(evt.target.value.toLowerCase())) })
         } else {
